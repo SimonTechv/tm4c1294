@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "arm",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "DEBUG_EFM=1",
+                "EFM32ZG210F32=1"
+            ],
+            "windowsSdkVersion": "10.0.22000.0",
+            "intelliSenseMode": "gcc-arm",
+            "compilerPath": "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++11"
+        }
+    ],
+    "version": 4
+}

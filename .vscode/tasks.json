@@ -1,0 +1,20 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "AAA",
+			"type": "process",
+			"command": "build.bat",
+			"options": {
+				"cwd": "${workspaceFolder}/scripts"
+			}
+		},
+		{
+			"type": "cmake",
+			"label": "CMake: configure",
+			"command": "configure",
+			"problemMatcher": [],
+			"detail": "CMake template configure task"
+		}
+	]
+}

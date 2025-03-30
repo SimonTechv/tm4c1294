@@ -1,0 +1,1 @@
+JLink.exe -device TM4C1294NCPDT -if swd -speed 500 -commanderscript debugger/fscript.jlink

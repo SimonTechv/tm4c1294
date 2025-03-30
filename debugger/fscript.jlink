@@ -1,0 +1,7 @@
+loadbin build/ti_adc.bin 0x0
+r
+g
+q
+
+
+
