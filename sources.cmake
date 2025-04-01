@@ -12,6 +12,6 @@ set(BAREMETALINC
     sdk/CMSIS/inc
 
     # Driver peripheral library
-    lib/driverlib/inc
+    sdk/driverlib/inc
 )
 

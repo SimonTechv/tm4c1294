@@ -59,7 +59,7 @@ target_link_options(${EXEC} PRIVATE
 )
 
 # Указываем путь, где лежит libdriver.a
-target_link_directories(${EXEC} PRIVATE lib/driverlib/static)
+target_link_directories(${EXEC} PRIVATE sdk/driverlib/static)
 
 # Линкуем библиотеку (указываем только "driver")
 target_link_libraries(ti_adc driver)
